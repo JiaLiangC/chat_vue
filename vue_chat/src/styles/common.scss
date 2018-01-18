@@ -1,0 +1,28 @@
+/*placeholder color*/
+::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #999; 
+    font-size: 16px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    color: #999; 
+    font-size: 16px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+    color: #999; 
+    font-size: 16px;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+    color: #999; 
+    font-size: 16px;
+}
+
+// 去除默认focus的样式
+input, button {
+	&:focus {
+		outline: 0;
+	}
+}
